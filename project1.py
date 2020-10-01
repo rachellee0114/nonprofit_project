@@ -7,8 +7,9 @@ def displayNonProfits():
     print("2. Crisis Text Line")
     print("3. Heart to Heart International")
     org=input("Enter the name of the organization you would like to donate to  ")
+    print("How much money would you like to donate for this organization?")
+    money=input("")
     
-
 def main():
     displayIntro()
     displayNonProfits()
