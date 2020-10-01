@@ -2,9 +2,12 @@ def displayIntro():
     print("Hello, would you like to donate to a non-profit organization?")
 
 def displayNonProfits():
-    print("1.World Central Kitchen") 
+    print("Which organization would you like to donate to?")
+    print("1. World Central Kitchen") 
     print("2. Crisis Text Line")
     print("3. Heart to Heart International")
+    org=input("Enter the name of the organization you would like to donate to  ")
+    
 
 def main():
     displayIntro()
